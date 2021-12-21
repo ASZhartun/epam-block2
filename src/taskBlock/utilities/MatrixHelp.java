@@ -49,7 +49,7 @@ public class MatrixHelp {
         else {
             for (int i = 0; i < matrix.length; i++) {
                 for (int j = 0; j < matrix[i].length; j++) {
-                    matrix[i][j] = random.nextInt(14) + 1;
+                    matrix[i][j] = random.nextInt(16);
                 }
             }
         }
