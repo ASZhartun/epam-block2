@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class Task16 {
     public static void main(String[] args) {
         MatrixHelp matrixHelp = new MatrixHelp();
-        int n = 4;
+        int n = 5;
         if (n == 1) {
             int[][] matrix = new int[][]{{1}};
             matrixHelp.printMatrix(matrix);
