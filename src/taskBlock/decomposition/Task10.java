@@ -23,7 +23,7 @@ public class Task10 {
         return array;
     }
 
-    private static int getLengthArray(int temp) {
+    public static int getLengthArray(int temp) {
         int length = 0;
         while (temp > 0) {
             temp /= 10;
